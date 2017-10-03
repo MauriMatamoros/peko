@@ -8,8 +8,6 @@ import {
 
 import App from '../imports/ui/App.jsx';
 
-import 'bootstrap';
-
 Meteor.startup(() => {
   render( <App /> , document.getElementById('render-target'));
 });
